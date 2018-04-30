@@ -1,3 +1,4 @@
+This is a first document that is being used for github...
 Github Tutorial For Beginners:
 ------------------------------
 Basic Commands: Execute all commands(clone) in github repo from cmd
