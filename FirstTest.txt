@@ -1,1 +1,16 @@
-This is a first document that is being used for github
+Github Tutorial For Beginners:
+------------------------------
+Basic Commands: Execute all commands(clone) in github repo from cmd
+
+git clone: Execute this in folder where u want to copy the github repo
+git status: Compares the local repo with server copy and identifies the which files are different
+git add YOUR_FILENAME: adds/updates the changes to a file mentioned(YOUR_FILENAME)
+	use -A instead of YOUR_FILENAME to include all files
+git commit -m "YOUR_COMMIT_MESSAGE": commits locally your changes to repo
+	In case you forgot to give YOUR_COMMIT_MESSAGE, cmd prompt takes you to different screen where u need to enter the commit message. and then type "esc:wq" to get back to the normal screen.
+git push: pushes local copy to github server
+git pull: pulls content from github server to local repo
+	Incase of conflict between server and local copy of a file, the file in local copy is updated with both the changes. Content just below 'Head' indicates the local copy and beneath it is server copy. Merge the changes finally to save the final/correct version in local copy. Once conflict is resolved, commit local copy to server using push commands(use add, commit commands before push command if needed)
+
+
+Reference: https://www.youtube.com/watch?v=0fKg7e37bQE
