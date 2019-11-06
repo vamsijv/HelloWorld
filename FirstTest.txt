@@ -26,6 +26,10 @@ Basic Commands: https://www.youtube.com/watch?v=0fKg7e37bQE
 Branches and Merging: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 =====
+<<<<<<< HEAD
 Merge Conflict - LOCAL
+=======
+Merge Conflict - SERVER
+>>>>>>> c119d7cacaf1aa4487c1b57cfeb8e864379bc025
 ======
 
