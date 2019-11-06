@@ -2,7 +2,7 @@ Github Tutorial For Beginners:
 ------------------------------
 Basic Commands: Execute all commands(clone) in github repo from cmd
 
-git clone: Execute this in folder where u want to copy the github repo
+git clone <repo_url>: Execute this in folder where u want to copy the github repo
 git status: Compares the local repo with server copy and identifies the which files are different
 git add YOUR_FILENAME: adds/updates the changes to a file mentioned(YOUR_FILENAME)
 	use -A instead of YOUR_FILENAME to include all files
