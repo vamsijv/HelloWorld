@@ -16,6 +16,10 @@ git checkout BRANCH_NAME
 	switches locally into BRANCH_NAME
 git checkout -
 	switches locally into last accessed branch
+git branch -a
+	list all branches - remote and local. Branch with * prefixed to its name in output is current branch
+git branch
+	list all local branches. Branch with * prefixed to its name in output is current branch
 
 References
 Basic Commands: https://www.youtube.com/watch?v=0fKg7e37bQE
