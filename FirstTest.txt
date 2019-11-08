@@ -29,6 +29,9 @@ Basic Commands: https://www.youtube.com/watch?v=0fKg7e37bQE
 Branches and Merging: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 
-=======
-tempBranch: Content from tempBranch branch as part of conflict resolution during 'merge'ing of tempBranch into master
-=======
+
+Another update: Update from childBranch Local and Server
+
+=====
+childBranch content
+
