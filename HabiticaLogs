@@ -1,0 +1,32 @@
+Following is the output of npm install command after I executed on Nov 12 (around 6pm GMT):
+=================================================================
+1274 error code EPERM
+1275 error syscall rename
+1276 error path E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\helper-function-name
+1277 error dest E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\.helper-function-name.DELETE
+1278 error errno -4048
+1279 error Error: EPERM: operation not permitted, rename 'E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\helper-function-name' -> 'E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\.helper-function-name.DELETE'
+1279 error  [OperationalError: EPERM: operation not permitted, rename 'E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\helper-function-name' -> 'E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\.helper-function-name.DELETE'] {
+1279 error   cause: [Error: EPERM: operation not permitted, rename 'E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\helper-function-name' -> 'E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\.helper-function-name.DELETE'] {
+1279 error     errno: -4048,
+1279 error     code: 'EPERM',
+1279 error     syscall: 'rename',
+1279 error     path: 'E:\\Vamsi\\Interests\\Habitica\\repo\\habitica\\node_modules\\@babel\\helper-function-name',
+1279 error     dest: 'E:\\Vamsi\\Interests\\Habitica\\repo\\habitica\\node_modules\\@babel\\.helper-function-name.DELETE'
+1279 error   },
+1279 error   stack: "Error: EPERM: operation not permitted, rename 'E:\\Vamsi\\Interests\\Habitica\\repo\\habitica\\node_modules\\@babel\\helper-function-name' -> 'E:\\Vamsi\\Interests\\Habitica\\repo\\habitica\\node_modules\\@babel\\.helper-function-name.DELETE'",
+1279 error   errno: -4048,
+1279 error   code: 'EPERM',
+1279 error   syscall: 'rename',
+1279 error   path: 'E:\\Vamsi\\Interests\\Habitica\\repo\\habitica\\node_modules\\@babel\\helper-function-name',
+1279 error   dest: 'E:\\Vamsi\\Interests\\Habitica\\repo\\habitica\\node_modules\\@babel\\.helper-function-name.DELETE',
+1279 error   parent: 'habitica'
+1279 error }
+1280 error The operation was rejected by your operating system.
+1280 error It's possible that the file was already in use (by a text editor or antivirus),
+1280 error or that you lack permissions to access it.
+1280 error
+1280 error If you believe this might be a permissions issue, please double-check the
+1280 error permissions of the file and its containing directories, or try running
+1280 error the command again as root/Administrator.
+1281 verbose exit [ -4048, true ]
