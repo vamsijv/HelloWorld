@@ -1,5 +1,11 @@
 Following is the output of npm install command after I executed on Nov 12 (around 6pm GMT):
 =================================================================
+Images capturing output of cmd:
+![npm install failed error details: part-1](https://prnt.sc/pw13ig "part-1 of error")
+![npm install failed error details: part-2](https://prnt.sc/pw13wp "part-2 of error")
+
+Error log details 
+
 1274 error code EPERM
 1275 error syscall rename
 1276 error path E:\Vamsi\Interests\Habitica\repo\habitica\node_modules\@babel\helper-function-name
