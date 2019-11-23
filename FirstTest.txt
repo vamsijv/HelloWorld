@@ -24,6 +24,9 @@ git branch -a
 git branch
 	list all local branches. Branch with * prefixed to its name in output is current branch
 
+Merging:
+git merge -X theirs Branch_ToBe_Merged -m "overwriting current branch contents with Branch_ToBe_Merged"
+
 References
 Basic Commands: https://www.youtube.com/watch?v=0fKg7e37bQE
 Branches and Merging: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
